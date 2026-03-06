@@ -130,7 +130,8 @@ public class MSButton
                 }
               }
             }else{
-              buttons[r][t].setLabel(Integer.toString(c));
+
+              buttons[r][t].setLabel(Integer.toString(countMines(r,t)));
             }
         }
     }
