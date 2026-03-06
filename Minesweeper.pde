@@ -60,7 +60,7 @@ public void displayLosingMessage()
 public void displayWinningMessage()
 {
     //your code here
-    textSize(30);
+    //textSize(30);
     fill(0);
     text("You Won, Congrats!",200,200);
 }
@@ -182,7 +182,7 @@ public class MSButton
 
         rect(x, y, width, height);
         fill(0);
-        textSize(12);
+        //textSize(12);
         text(myLabel,x+width/2,y+height/2);
         if(gameState == "WON")
           displayWinningMessage();
