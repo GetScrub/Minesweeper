@@ -131,7 +131,7 @@ public class MSButton
               }
             }else{
 
-              buttons[r][t].setLabel(String.valueOf((countMines(r,t)));
+              buttons[r][t].setLabel(Integer.toString(c));
             }
         }
     }
